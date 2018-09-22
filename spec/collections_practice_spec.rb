@@ -34,6 +34,8 @@ describe 'collections practice' do
   describe '#swap_elements_from_to' do
     it 'swap two elements of an array per the specified from and to indices' do
       expect(swap_elements_from_to(["first", "second", "fifth", "fourth", "third"],2,4)).to eq(["first", "second", "third", "fourth", "fifth"])
+    end
+  end
 
   # Question 5
   describe '#reverse_array' do
