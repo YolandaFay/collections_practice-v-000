@@ -9,3 +9,9 @@ end
 def sort_array_char_count(array)
   array.sort { |string1, string2| string1.length <=> string2.length }
 end
+
+def swap_elements(array)
+  placeholder = array[1]
+  array[1] = array[2]
+  array[2] = placeholder 
+end
