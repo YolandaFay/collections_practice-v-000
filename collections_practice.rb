@@ -51,8 +51,16 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index.collect{ |element, index | element << "s" }
-  array[1].split.pop 
+  counter = 0 
+  while counter < array.length
+    if counter == 2   
+      counter += 1 
+    else 
+      array[counter] << "s"
+      counter += 1 
+    end
+  end
+    
 end
 
 
