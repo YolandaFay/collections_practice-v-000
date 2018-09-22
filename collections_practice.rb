@@ -53,14 +53,14 @@ end
 def add_s(array)
   counter = 0 
   while counter < array.length
-    if counter == 2   
+    if counter == 1   
       counter += 1 
     else 
       array[counter] << "s"
       counter += 1 
     end
   end
-  return array 
+  array 
 end
 
 
