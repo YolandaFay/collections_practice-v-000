@@ -52,7 +52,7 @@ end
 
 def add_s(array)
   index = 0 
-  array.each_with_index.collect{ |element, index| element << "s" }
+  array.each_with_index.collect{ |element, index != 2| element << "s" }
 end
 
 
