@@ -53,6 +53,7 @@ def sum_array(array)
     sum += array[count]
     count += 1 
   end
+  sum
 end
 
 
