@@ -47,16 +47,13 @@ def find_a(array)
 end
 
 def sum_array(array)
-  count = 0
-  sum = 0 
-  while count < array.length
-    sum += array[count]
-    count += 1 
+  array.inject { |first, second| first + second }
   end
   sum
 end
 
 def add_s(array)
+  
 end
 
 
