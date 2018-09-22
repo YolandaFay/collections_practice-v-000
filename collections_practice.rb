@@ -53,7 +53,7 @@ end
 def add_s(array)
   second_element = array[1]
   array.each_with_index.collect{ |element, index | element << "s" }
-  array[1] = second_element 
+  return feet 
 end
 
 
