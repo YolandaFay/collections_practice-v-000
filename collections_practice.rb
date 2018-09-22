@@ -52,7 +52,7 @@ end
 
 def add_s(array)
   array.each_with_index.collect{ |element, index | element << "s" }
-  array[1].
+  array[1].split.pop 
 end
 
 
