@@ -47,10 +47,12 @@ def find_a(array)
 end
 
 def sum_array(array)
-  count = 0 
+  count = 0
+  sum = 0 
   while count < array.length
     sum += array[count]
-    count += string1
+    count += 1 
+  end
 end
 
 
