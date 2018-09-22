@@ -50,7 +50,7 @@ def sum_array(array)
   count = 0 
   while count < array.length
     sum += array[count]
-    
+    count += string1
 end
 
 
